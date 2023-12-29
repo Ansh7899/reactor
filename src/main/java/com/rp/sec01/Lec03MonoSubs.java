@@ -2,6 +2,8 @@ package com.rp.sec01;
 
 import reactor.core.publisher.Mono;
 
+import static com.rp.utils.Util.*;
+
 // Mono subscribe, oncomplete and on error
 
 public class Lec03MonoSubs {
@@ -18,9 +20,9 @@ public class Lec03MonoSubs {
                 .map(s -> s.toLowerCase());
 
         mono.subscribe(
-                item -> System.out.println(item),
-                err -> System.out.println(err.getMessage()),
-                () -> System.out.println("completed")
+                onNext(),
+                onError(),
+                onComplete()
         );
     }
 }
