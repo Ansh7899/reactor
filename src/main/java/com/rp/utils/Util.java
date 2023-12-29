@@ -1,8 +1,13 @@
 package com.rp.utils;
 
+import com.github.javafaker.Faker;
+
 import java.util.function.Consumer;
 
 public class Util {
+
+    //Faker Instance to generate data
+    private static final Faker FAKER = Faker.instance();
 
     //extracting behaviour of onNext()
     public static Consumer<Object> onNext() {
@@ -19,4 +24,7 @@ public class Util {
         return () -> System.out.println("COMPLETED");
     }
 
+    public static Faker faker() {
+        return FAKER;
+    }
 }
