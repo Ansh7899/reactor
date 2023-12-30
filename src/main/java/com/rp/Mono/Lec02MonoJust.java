@@ -1,4 +1,4 @@
-package com.rp.sec01;
+package com.rp.Mono;
 import reactor.core.publisher.Mono;
 
 // demonstrating basic publisher and subscriber relation

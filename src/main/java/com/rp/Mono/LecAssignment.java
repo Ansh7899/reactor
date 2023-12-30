@@ -1,6 +1,6 @@
-package com.rp.sec01;
+package com.rp.Mono;
 
-import com.rp.sec01.assignment.FileService;
+import com.rp.Mono.assignment.FileService;
 import com.rp.utils.Util;
 
 public class LecAssignment {

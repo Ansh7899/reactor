@@ -1,4 +1,4 @@
-package com.rp.sec01.assignment;
+package com.rp.Mono.assignment;
 
 import reactor.core.publisher.Mono;
 
@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 
 public class FileService {
 
-    private static final Path PATH = Paths.get("src/main/resources/assignment/sec01");
+    private static final Path PATH = Paths.get("src/main/resources/assignment/Mono");
 
     //publisher for reading
     public static Mono<String> read (String filename) {
