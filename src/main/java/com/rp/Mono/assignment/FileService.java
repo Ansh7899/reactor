@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 
 public class FileService {
 
-    private static final Path PATH = Paths.get("src/main/resources/assignment/Mono");
+    private static final Path PATH = Paths.get("src/main/resources/assignment/sec01");
 
     //publisher for reading
     public static Mono<String> read (String filename) {
