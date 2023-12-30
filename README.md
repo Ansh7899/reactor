@@ -6,6 +6,10 @@ Requirements:
 
 `Java 17`
 
+Use below command to build the project in your local:
+
+`mvn clean install`
+
 To see basic Mono functionalities check:
 
 `src/main/java/com/rp/sec01/LecAssignment.java`
