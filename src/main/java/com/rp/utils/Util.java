@@ -1,6 +1,7 @@
 package com.rp.utils;
 
 import com.github.javafaker.Faker;
+import org.reactivestreams.Subscriber;
 
 import java.util.function.Consumer;
 
@@ -43,5 +44,11 @@ public class Util {
         }
     }
 
+    public static Subscriber<Object> subscriber() {
+        return new DefaultSubscriber();
+    }
 
+    public static Subscriber<Object> subscriberWithName(String name) {
+        return new DefaultSubscriber(name);
+    }
 }
