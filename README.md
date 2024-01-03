@@ -12,3 +12,4 @@ Main is the default branch set for the repository.
 `src/main/java/com/rp/sec01/LecAssignment.java`
 * Flux section is for basic creation of flux using just(), stream(), range() etc.
 * Advanced Flux section elaborates creation of flux using create(), push() and generate()
+* Operators section offers a variety of operators and how they are used while publishing
