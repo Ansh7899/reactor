@@ -44,11 +44,11 @@ public class Util {
         }
     }
 
-    public static Subscriber<Object> subscriber() {
+    public static Subscriber<Object> subscriber(){
         return new DefaultSubscriber();
     }
 
-    public static Subscriber<Object> subscriberWithName(String name) {
+    public static Subscriber<Object> subscriber(String name){
         return new DefaultSubscriber(name);
     }
 }
