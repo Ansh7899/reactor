@@ -16,7 +16,7 @@ public class Lec02HotShare {
     public static void main(String[] args) {
         Flux<String> stringFlux = Flux.fromStream(() -> getMovie())
                 .delayElements(Duration.ofSeconds(2))
-                .share();
+                .share();  //alias method for publish().refcount(1);
 
         stringFlux.subscribe(Util.subscriber("ash"));
 
