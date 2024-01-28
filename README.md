@@ -14,4 +14,4 @@ Main is the default branch set for the repository.
 * Advanced Flux section elaborates creation of flux using create(), push() and generate().
 * Operators section offers a variety of operators and how they are used while publishing.
 * Publisher section demonstrates hot and cold publishers by Flux.
-* 
+* Go to Threading and Schedulers for playing with publishOn() and subscribeOn() methods.
