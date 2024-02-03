@@ -1,6 +1,6 @@
 package com.rp.ThreadingAndSchedulers;
 
-import com.rp.courseutil.Util;
+import com.rp.utils.Util;
 import reactor.core.publisher.Flux;
 
 import java.time.Duration;
